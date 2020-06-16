@@ -6,12 +6,14 @@
     "node_modules"
   ],
   "compilerOptions": {
+    /* commonJs하면 export 안먹힘 */
     // "module" : "CommonJS",
     "module" : "es6",
     "rootDir" : "src",
     "outDir" : "dist",
+    // "target" : "es5",
     "target" : "es2015",
-    // "target" : "es6"
+    // "target" : "es6",
     /* 개발자 도구에서 ts파일 보기 설정 */
     "sourceMap": true,
     "removeComments": true,
