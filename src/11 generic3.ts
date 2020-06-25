@@ -40,7 +40,7 @@ interface Cart2<T> {
 const cart1: Cart2<Vegitable> = {
   getItem() {
     return {
-      m: '',
+      v: '',
     };
   },
 };
